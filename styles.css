@@ -1,13 +1,20 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: black; /* fallback background */
   }
   
-  /* Specific backgrounds for each flyer page */
+  img.flyer {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  /*
   .flyer1 {
     background-image: url('DroneExhibitionDayFlyer.png');
   }
@@ -19,8 +26,9 @@ body {
   .flyer3 {
     background-image: url('SoftwareEngineeringNetworkingEventInvite.png');
   }
-  
-  /* Nav bar */
+  */
+
+/* Nav Bar */
   .flyer-bar {
     position: fixed;
     top: 20px;
@@ -46,4 +54,3 @@ body {
   .flyer-bar a:hover {
     background-color: #555;
   }
-  
