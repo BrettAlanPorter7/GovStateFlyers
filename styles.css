@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Specific backgrounds for each flyer page */
+  .flyer1 {
+    background-image: url('DroneExhibitionDayFlyer.png');
+  }
+  
+  .flyer2 {
+    background-image: url('SoftwareEngineeringNetworkingEventFlyer.png');
+  }
+  
+  .flyer3 {
+    background-image: url('SoftwareEngineeringNetworkingEventInvite.png');
+  }
+  
+  /* Nav bar */
+  .flyer-bar {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .flyer-bar a {
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .flyer-bar a:hover {
+    background-color: #555;
+  }
+  
